@@ -17,7 +17,7 @@
 
 # Provides overrides to configure the Dalvik heap for a 12 GiB phone
 
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.heapstartsize=24m \
     dalvik.vm.heapgrowthlimit=384m \
     dalvik.vm.heapsize=512m \

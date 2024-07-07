@@ -16,7 +16,7 @@
 
 # Provides overrides to configure the Dalvik heap for a xhdpi phone
 
-PRODUCT_VENDOR_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.heapstartsize?=8m \
     dalvik.vm.heapgrowthlimit?=96m \
     dalvik.vm.heapsize?=256m \
